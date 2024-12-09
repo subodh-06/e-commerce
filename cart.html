@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSW Project</title>
+    <!-- bootstrap cdn css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- css -->
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <!-- Mobile Layout -->
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Brand/Logo -->
+          <a class="navbar-brand position-absolute top-50 start-50 translate-middle d-lg-none" href="#">Brand Name</a>
+          <a class="navbar-brand d-none d-lg-block" href="#">Brand Name</a>
+          
+          <!-- Navigation Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+  
+          <!-- Shopping Cart Icon -->
+          <div class="cart-wrapper">
+            <a href="/cart.html" class="cart-icon">
+              <i class="bi bi-cart"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+       <!-- navbar end -->
+
+       <div class="container  mt-5" id="cart-items">
+        <!-- Cart Item -->
+        <div class="row">
+          <div class="col-md-8">
+            <h5>From Saved Addresses</h5>
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="product-image.png" alt="Product" class="img-fluid rounded-start">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">ChinuStyle Beard Mustache Trimmer High Power Hair Clipper</h5>
+                    <p class="text-muted">Black, Silver</p>
+                    <p><strong>Seller:</strong> HAUSBELL</p>
+                    <p><strong>Delivery by:</strong> Mon Dec 16 <span class="text-success">Free</span></p>
+                    <h5 class="text-danger">₹407 <span class="text-muted" style="text-decoration: line-through;">₹1,999</span></h5>
+                    <p class="text-success">79% Off</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Insurance Offer -->
+            <div class="card mb-3">
+              <div class="card-body">
+                <h6>Digital Suraksha Group Insurance</h6>
+                <p>Get your financial losses covered for online transaction frauds on all bank accounts, credit/debit cards, and mobile wallets.</p>
+                <button class="btn btn-primary btn-sm">Add Item</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Price Details -->
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header">
+                Price Details
+              </div>
+              <div class="card-body">
+                <p class="d-flex justify-content-between">
+                  <span>Price (1 item)</span>
+                  <span>₹1,999</span>
+                </p>
+                <p class="d-flex justify-content-between">
+                  <span>Discount</span>
+                  <span class="text-success">- ₹1,592</span>
+                </p>
+                <p class="d-flex justify-content-between">
+                  <span>Delivery Charges</span>
+                  <span class="text-success">Free</span>
+                </p>
+                <hr>
+                <h5 class="d-flex justify-content-between">
+                  <span>Total Amount</span>
+                  <span>₹407</span>
+                </h5>
+                <p class="text-success">You will save ₹1,592 on this order</p>
+                <button class="btn btn-warning w-100">Place Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- bootstrap css -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- bootstrap icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- js -->
+     <script src="/cart.js"></script>
+  </body>
+</html>
